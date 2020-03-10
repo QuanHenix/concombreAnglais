@@ -9,6 +9,6 @@ Fonctionnalité: Gherkkin1
 		Quand je liste les produits disponibles.
 		Alors je constate que tous les produits suivants sont disponibles :
 		| produit			| prix  |
-		| Expresso		| 0.40  |
+		| Expresso			| 0.40  |
 		| Lungo				| 0.50  |
-		| Cappuccino	| 0.80  |
+		| Cappuccino			| 0.80  |
