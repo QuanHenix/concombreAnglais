@@ -2,6 +2,6 @@
 Feature: BDD1
 
 	Scenario: BDD1
-		GIVEN today is monday
-		WHEN i go to work
-		THEN i am at the office
+		Given today is monday
+		When i go to work
+		Then i am at the office
