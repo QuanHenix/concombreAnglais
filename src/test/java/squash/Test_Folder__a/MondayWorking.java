@@ -6,7 +6,6 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
@@ -21,10 +20,10 @@ public class MondayWorking {
 	//KO
     @Given("today is monday")
     public void today_is_monday() {
-        driver = new ChromeDriver();
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        driver = new FirefoxDriver();
+        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         driver.get("https://squash-tf.readthedocs.io/en/latest/");
-        a = 6;
+        a = 5;
         c = 11;
     }
 		
