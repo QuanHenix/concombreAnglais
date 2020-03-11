@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
-public class MondayWorking {
+public class TuesdayWorking {
 
     WebDriver driver;
     int a;
