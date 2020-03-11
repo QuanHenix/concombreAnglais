@@ -17,8 +17,7 @@ public class MondayWorking {
     int b;
     int c;
 
-	//KO
-    @Given("today is monday")
+   @Given("today is monday")
     public void today_is_monday() {
         driver = new FirefoxDriver();
         driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
